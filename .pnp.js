@@ -30,6 +30,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     ],
     "fallbackPool": [
       [
+        "@testing-library/dom",
+        "npm:7.2.0"
+      ],
+      [
         "@testing-library/jest-dom",
         "npm:4.2.4"
       ],
@@ -69,6 +73,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+            ["@testing-library/dom", "npm:7.2.0"],
             ["@testing-library/jest-dom", "npm:4.2.4"],
             ["@testing-library/react", "virtual:684a848f6513483ebac96fc1f63a175f2bd2f48c07909e7c125f8b73e0556de140bf56d727b6d784ed1353d9a023b9aeeeae52b80cb7986f99d5a056b062b968#npm:9.5.0"],
             ["@testing-library/user-event", "virtual:684a848f6513483ebac96fc1f63a175f2bd2f48c07909e7c125f8b73e0556de140bf56d727b6d784ed1353d9a023b9aeeeae52b80cb7986f99d5a056b062b968#npm:7.2.1"],
@@ -2129,6 +2134,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["wait-for-expect", "npm:3.0.2"]
           ],
           "linkType": "HARD",
+        }],
+        ["npm:7.2.0", {
+          "packageLocation": "./.yarn/cache/@testing-library-dom-npm-7.2.0-2fe1a69f8f-2.zip/node_modules/@testing-library/dom/",
+          "packageDependencies": [
+            ["@testing-library/dom", "npm:7.2.0"],
+            ["@babel/runtime", "npm:7.9.2"],
+            ["@types/testing-library__dom", "npm:7.0.0"],
+            ["aria-query", "npm:4.0.2"],
+            ["dom-accessibility-api", "npm:0.4.3"],
+            ["pretty-format", "npm:25.2.3"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["@testing-library/jest-dom", [
@@ -2172,7 +2189,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/$$virtual/@testing-library-user-event-virtual-d46b11963c/0/cache/@testing-library-user-event-npm-7.2.1-f23077a34e-2.zip/node_modules/@testing-library/user-event/",
           "packageDependencies": [
             ["@testing-library/user-event", "virtual:684a848f6513483ebac96fc1f63a175f2bd2f48c07909e7c125f8b73e0556de140bf56d727b6d784ed1353d9a023b9aeeeae52b80cb7986f99d5a056b062b968#npm:7.2.1"],
-            ["@testing-library/dom", null]
+            ["@testing-library/dom", "npm:7.2.0"]
           ],
           "packagePeers": [
             "@testing-library/dom"
@@ -5624,6 +5641,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/dom-accessibility-api-npm-0.3.0-ea63c6e13b-2.zip/node_modules/dom-accessibility-api/",
           "packageDependencies": [
             ["dom-accessibility-api", "npm:0.3.0"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:0.4.3", {
+          "packageLocation": "./.yarn/cache/dom-accessibility-api-npm-0.4.3-893f0a2fbf-2.zip/node_modules/dom-accessibility-api/",
+          "packageDependencies": [
+            ["dom-accessibility-api", "npm:0.4.3"]
           ],
           "linkType": "HARD",
         }]
@@ -14549,6 +14573,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["styled-pnp", "workspace:."],
+            ["@testing-library/dom", "npm:7.2.0"],
             ["@testing-library/jest-dom", "npm:4.2.4"],
             ["@testing-library/react", "virtual:684a848f6513483ebac96fc1f63a175f2bd2f48c07909e7c125f8b73e0556de140bf56d727b6d784ed1353d9a023b9aeeeae52b80cb7986f99d5a056b062b968#npm:9.5.0"],
             ["@testing-library/user-event", "virtual:684a848f6513483ebac96fc1f63a175f2bd2f48c07909e7c125f8b73e0556de140bf56d727b6d784ed1353d9a023b9aeeeae52b80cb7986f99d5a056b062b968#npm:7.2.1"],

@@ -1257,7 +1257,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.5.1, @babel/runtime@npm:^7.7.4":
+"@babel/runtime@npm:^7.5.1, @babel/runtime@npm:^7.7.4, @babel/runtime@npm:^7.9.2":
   version: 7.9.2
   resolution: "@babel/runtime@npm:7.9.2"
   dependencies:
@@ -1753,6 +1753,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@testing-library/dom@npm:^7.2.0":
+  version: 7.2.0
+  resolution: "@testing-library/dom@npm:7.2.0"
+  dependencies:
+    "@babel/runtime": ^7.9.2
+    "@types/testing-library__dom": ^7.0.0
+    aria-query: ^4.0.2
+    dom-accessibility-api: ^0.4.2
+    pretty-format: ^25.1.0
+  checksum: 2/810c71d8d9756d44839d65d520c5bc5dbc454282b79d60b709ed48739c44044c290a8777cb3bdbe5e7b7224c6467ed98fdc70763949de1e1450a8ead16d16fb3
+  languageName: node
+  linkType: hard
+
 "@testing-library/jest-dom@npm:^4.2.4":
   version: 4.2.4
   resolution: "@testing-library/jest-dom@npm:4.2.4"
@@ -1960,7 +1973,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/testing-library__dom@npm:*":
+"@types/testing-library__dom@npm:*, @types/testing-library__dom@npm:^7.0.0":
   version: 7.0.0
   resolution: "@types/testing-library__dom@npm:7.0.0"
   dependencies:
@@ -4837,6 +4850,13 @@ __metadata:
   version: 0.3.0
   resolution: "dom-accessibility-api@npm:0.3.0"
   checksum: 2/d6b40ffc70e03bc4878ba354fa590772665b9c948ad81f1fd8f47748280d6e4b3e91f1acc2e5b82f600da95833d31311c2b2a80720ed23d2c5c94e657b35bfd2
+  languageName: node
+  linkType: hard
+
+"dom-accessibility-api@npm:^0.4.2":
+  version: 0.4.3
+  resolution: "dom-accessibility-api@npm:0.4.3"
+  checksum: 2/2fda22716f591972f8c4b3b912b8062b5a199aea03db82cca86d320fbc647325e3149f2e9157fdd1627a5c5ea09242c9b91d169e4737122df23af7d80b76100c
   languageName: node
   linkType: hard
 
@@ -12970,6 +12990,7 @@ resolve@1.15.0:
   version: 0.0.0-use.local
   resolution: "styled-pnp@workspace:."
   dependencies:
+    "@testing-library/dom": ^7.2.0
     "@testing-library/jest-dom": ^4.2.4
     "@testing-library/react": ^9.3.2
     "@testing-library/user-event": ^7.1.2
