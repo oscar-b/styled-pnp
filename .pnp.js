@@ -50,6 +50,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "virtual:684a848f6513483ebac96fc1f63a175f2bd2f48c07909e7c125f8b73e0556de140bf56d727b6d784ed1353d9a023b9aeeeae52b80cb7986f99d5a056b062b968#npm:16.13.1"
       ],
       [
+        "react-is",
+        "npm:16.13.1"
+      ],
+      [
         "react-scripts",
         "virtual:684a848f6513483ebac96fc1f63a175f2bd2f48c07909e7c125f8b73e0556de140bf56d727b6d784ed1353d9a023b9aeeeae52b80cb7986f99d5a056b062b968#npm:3.4.1"
       ],
@@ -70,6 +74,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/user-event", "virtual:684a848f6513483ebac96fc1f63a175f2bd2f48c07909e7c125f8b73e0556de140bf56d727b6d784ed1353d9a023b9aeeeae52b80cb7986f99d5a056b062b968#npm:7.2.1"],
             ["react", "npm:16.13.1"],
             ["react-dom", "virtual:684a848f6513483ebac96fc1f63a175f2bd2f48c07909e7c125f8b73e0556de140bf56d727b6d784ed1353d9a023b9aeeeae52b80cb7986f99d5a056b062b968#npm:16.13.1"],
+            ["react-is", "npm:16.13.1"],
             ["react-scripts", "virtual:684a848f6513483ebac96fc1f63a175f2bd2f48c07909e7c125f8b73e0556de140bf56d727b6d784ed1353d9a023b9aeeeae52b80cb7986f99d5a056b062b968#npm:3.4.1"],
             ["styled-components", "virtual:684a848f6513483ebac96fc1f63a175f2bd2f48c07909e7c125f8b73e0556de140bf56d727b6d784ed1353d9a023b9aeeeae52b80cb7986f99d5a056b062b968#npm:5.0.1"]
           ],
@@ -14527,7 +14532,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["hoist-non-react-statics", "npm:3.3.2"],
             ["react", "npm:16.13.1"],
             ["react-dom", "virtual:684a848f6513483ebac96fc1f63a175f2bd2f48c07909e7c125f8b73e0556de140bf56d727b6d784ed1353d9a023b9aeeeae52b80cb7986f99d5a056b062b968#npm:16.13.1"],
-            ["react-is", null],
+            ["react-is", "npm:16.13.1"],
             ["shallowequal", "npm:1.1.0"],
             ["supports-color", "npm:5.5.0"]
           ],
@@ -14549,6 +14554,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/user-event", "virtual:684a848f6513483ebac96fc1f63a175f2bd2f48c07909e7c125f8b73e0556de140bf56d727b6d784ed1353d9a023b9aeeeae52b80cb7986f99d5a056b062b968#npm:7.2.1"],
             ["react", "npm:16.13.1"],
             ["react-dom", "virtual:684a848f6513483ebac96fc1f63a175f2bd2f48c07909e7c125f8b73e0556de140bf56d727b6d784ed1353d9a023b9aeeeae52b80cb7986f99d5a056b062b968#npm:16.13.1"],
+            ["react-is", "npm:16.13.1"],
             ["react-scripts", "virtual:684a848f6513483ebac96fc1f63a175f2bd2f48c07909e7c125f8b73e0556de140bf56d727b6d784ed1353d9a023b9aeeeae52b80cb7986f99d5a056b062b968#npm:3.4.1"],
             ["styled-components", "virtual:684a848f6513483ebac96fc1f63a175f2bd2f48c07909e7c125f8b73e0556de140bf56d727b6d784ed1353d9a023b9aeeeae52b80cb7986f99d5a056b062b968#npm:5.0.1"]
           ],
