@@ -14551,6 +14551,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@emotion/is-prop-valid", "npm:0.8.8"],
             ["@emotion/stylis", "npm:0.8.5"],
             ["@emotion/unitless", "npm:0.7.5"],
+            ["babel-plugin-macros", "npm:2.8.0"],
             ["babel-plugin-styled-components", "virtual:f4cd90d0acb48d42f972aac15a685ca2eaa1086a1e10c1730399685c2b0fb46158fd5eef17cb2a85e25ccdfb24ed3099f0d356f14c827976a31d8773d205b6e6#npm:1.10.7"],
             ["css-to-react-native", "npm:3.0.0"],
             ["hoist-non-react-statics", "npm:3.3.2"],
